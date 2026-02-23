@@ -11776,7 +11776,7 @@
 		)
 		(uuid "f3dd9786-f2c4-4c1b-86f1-043b3014292e")
 	)
-	(label "BUTTON_2"
+	(label "BUTTON_3"
 		(at 88.9 151.13 0)
 		(effects
 			(font
@@ -13236,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -15514,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 143.51 53.34 0)
 			(effects
 				(font
@@ -16960,7 +16960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -17951,7 +17951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 166.37 189.23 0)
 			(effects
 				(font
@@ -19504,7 +19504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -20499,7 +20499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 171.45 179.07 0)
 			(effects
 				(font
