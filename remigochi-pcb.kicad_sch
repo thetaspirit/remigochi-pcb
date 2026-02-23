@@ -13509,7 +13509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 144.78 52.07 0)
 			(effects
 				(font
