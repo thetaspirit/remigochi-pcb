@@ -66,6 +66,28 @@
 		(layer "F.SilkS")
 		(uuid "14fc175a-b015-4c5d-96fd-a8781185e42a")
 	)
+	(fp_rect
+		(start 0.1 -7.2)
+		(end 9.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b8580013-41c3-41dc-a3e9-49abff848323")
+	)
+	(fp_rect
+		(start 0.1 -7.2)
+		(end 9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "03db75d6-32f4-441e-9c94-2f5783497a9c")
+	)
 	(fp_text user "Port"
 		(at 7.5 -2 90)
 		(unlocked yes)
