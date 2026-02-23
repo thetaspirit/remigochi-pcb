@@ -1,3 +1,5 @@
 *lck
 *-backups/
-fp-info-cache
+fp-*
+\#*
+_autosave*

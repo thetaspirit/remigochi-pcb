@@ -1,0 +1,143 @@
+(footprint "ABRACON ASPI-0428S-3R9M-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Abracon, ASPI-0425, 4.0x4.0x2.5mm, (https://abracon.com/Magnetics/new/ASPI-0425.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "power shielded low-profile")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "592c4a03-7aef-4eeb-9f66-7f21edd1fb38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABRACON ASPI-0428S-3R9M-T"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "742f7350-f41d-4a71-a65d-efa30333a525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecaf30f9-fe24-467e-b7c2-f6f023ffe507")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "121eb8c3-2657-4cde-b76d-bc2e85a4906a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.8 -2.9)
+		(end 3 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0eb7713-56b2-4ba9-8b14-45e8b67562b1")
+	)
+	(fp_line
+		(start -2.8 2.9)
+		(end -2.8 -2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3044d25-9cb2-42cd-baf7-57b6225a90d2")
+	)
+	(fp_line
+		(start 3 -2.9)
+		(end 3 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4ca1846-8f96-42f7-b419-1ef8d1dc5e09")
+	)
+	(fp_line
+		(start 3 2.9)
+		(end -2.8 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a34ae33d-2d97-4ed4-ae8a-c0b4b1458d02")
+	)
+	(fp_rect
+		(start -2.7 -2.8)
+		(end 2.9 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "344634a9-47ed-46bd-a864-466f8e6b0070")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d0d01730-0435-4884-9433-5fb63c178976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.6 0)
+		(size 1.9 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.166667)
+		(uuid "dc0775ee-d13c-49f8-8642-652af8f2ecaa")
+	)
+	(pad "2" smd roundrect
+		(at 1.8 0)
+		(size 1.9 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.166667)
+		(uuid "1d85611c-3798-4fda-9725-f87ac2e7a98c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0425.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
