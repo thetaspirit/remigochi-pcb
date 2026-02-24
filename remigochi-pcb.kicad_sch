@@ -11483,6 +11483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2984265"
+			(at 242.57 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a185f7e-6da6-4e45-affc-aa1745219b63")
 		)
@@ -11614,6 +11623,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 36.83 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,6 +11775,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C60491"
+			(at 184.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5b9eef6-0c9a-46bc-b639-880f7e5c7119")
 		)
@@ -11891,6 +11918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C105872"
+			(at 273.05 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61b80040-c71f-4bd7-b55b-9ff6ae1ff341")
 		)
@@ -11963,6 +11999,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 148.6551 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4491bdf7-6e54-4aca-a257-6f13379af1af")
 		)
@@ -12028,6 +12073,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 33.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 33.02 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,6 +12217,15 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C95299"
 			(at 96.52 106.68 0)
 			(effects
 				(font
@@ -12309,6 +12372,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e344278b-50b8-4ac2-9729-f31fb16df7b1")
 		)
@@ -12435,6 +12507,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 184.15 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -12582,6 +12663,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C19702"
+			(at 280.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7dbffc4-aa3d-4661-9a44-166abc43484c")
 		)
@@ -12647,6 +12737,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 36.83 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,6 +12825,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 137.16 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "506cbab3-f55f-4864-8c19-2433b24b1799")
 		)
@@ -12784,6 +12892,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C60490"
+			(at 269.24 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,6 +13046,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc3b3f13-2c34-4199-b931-fd1d4ae86cb5")
 		)
@@ -12992,6 +13118,15 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C10662"
+			(at 144.78 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,6 +13297,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C20917"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbedf8a8-b6b6-4370-8a89-cb690eb3618d")
 		)
@@ -13301,6 +13445,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C105872"
+			(at 27.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c680fd2-5b16-4d06-98da-72e8e57178d3")
 		)
@@ -13428,6 +13581,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138002"
+			(at 95.25 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13573,6 +13735,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de6d022e-63bc-464f-8e67-43296bf49da7")
 		)
@@ -13652,6 +13823,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1322289"
+			(at 226.06 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df03400b-35ec-45eb-93c2-f4e6a4d8b1c3")
 		)
@@ -13713,6 +13893,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 269.24 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C60488"
+			(at 269.24 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13858,6 +14047,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96e0fd6a-3dd5-4c7f-bc57-c5949ded5117")
 		)
@@ -13930,6 +14128,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9660c43-e20d-46df-ad82-b597f01c9b1d")
 		)
@@ -13992,6 +14199,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C19702"
 			(at 177.8 87.63 0)
 			(effects
 				(font
@@ -14134,6 +14350,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C138002"
+			(at 100.33 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4aff4b20-b893-46e5-b575-5b498576976b")
 		)
@@ -14204,6 +14429,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2909692"
+			(at 181.61 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f2fc02d-f4f0-4055-97d4-3681ce067e14")
 		)
@@ -14266,6 +14500,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2913197"
 			(at 45.72 59.69 0)
 			(effects
 				(font
@@ -14461,6 +14704,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C163475"
+			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5357993a-00d0-47a4-8e3c-842370c74188")
 		)
@@ -14533,6 +14785,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 36.83 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43f0109b-752c-4ccf-b4ac-af6c6abeeddb")
 		)
@@ -14595,6 +14856,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 24.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 24.13 172.72 0)
 			(effects
 				(font
@@ -14774,6 +15044,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4b61340-b443-49a0-b69c-97e6e38b9747")
 		)
@@ -14930,6 +15209,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 148.59 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2808271-dc3a-4d3b-8e2f-18cfc417ec1b")
 		)
@@ -14993,6 +15281,15 @@
 		)
 		(property "Description" "test point"
 			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 138.43 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15133,6 +15430,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 105.41 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3d3bfbc0-7bf4-4834-8db6-e96b953edb7a")
 		)
@@ -15225,6 +15531,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 273.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C105872"
+			(at 273.05 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15369,6 +15684,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C14663"
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6961b2ef-9949-4913-8d7b-12256a2a5b69")
 		)
@@ -15448,6 +15772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2980185"
+			(at 231.14 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b97c37de-722f-453f-86c9-33e940f3a5db")
 		)
@@ -15510,6 +15843,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 231.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C106235"
 			(at 231.14 143.51 0)
 			(effects
 				(font
@@ -15586,6 +15928,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2909692"
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6ef605e3-e222-46f1-9e47-61473e7c40f8")
 		)
@@ -15648,6 +15999,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated"
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 105.41 146.05 0)
 			(effects
 				(font
@@ -15958,6 +16318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C23380830"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8e72ebfe-a6e4-4c00-b180-340c54d6995a")
 		)
@@ -16169,6 +16538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 102.87 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f90bc6c6-3645-43f6-bff3-194f4892b763")
 		)
@@ -16229,6 +16607,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 276.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 276.86 27.94 0)
 			(effects
 				(font
@@ -16309,6 +16696,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 95.25 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b62ca741-e4b9-4118-a4ca-107bb2edd780")
 		)
@@ -16379,6 +16775,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2909692"
+			(at 199.39 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fbd1b9c-e735-44a5-8f4e-27dd6f0ffd6f")
 		)
@@ -16439,6 +16844,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2988369"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -16580,6 +16994,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C241939"
+			(at 113.03 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1c122be-b6e3-4601-97a6-30c317671fbb")
 		)
@@ -16670,6 +17093,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C20917"
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16950,6 +17382,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 166.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9574161c-a2bb-4b49-875c-8d5bd347787c")
 		)
@@ -17149,6 +17590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "f8a8a32a-a4dd-419c-bf8b-701b77658eed")
 		)
@@ -17311,6 +17761,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C20613191"
 			(at 60.96 125.73 0)
 			(effects
 				(font
@@ -17611,6 +18070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C106235"
+			(at 242.57 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "410f4fb9-2cd4-479d-af07-2bdd13fe781e")
 		)
@@ -17739,6 +18207,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C19666"
 			(at 143.51 26.67 0)
 			(effects
 				(font
@@ -18017,6 +18494,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 33.02 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c509c8a9-0a37-4046-91ec-fdcfedd07cbf")
 		)
@@ -18153,6 +18639,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C19702"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e089fc42-c46e-4e7e-b330-f471f40907ea")
 		)
@@ -18223,6 +18718,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C88374"
+			(at 154.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14864ec2-0020-4b32-a792-405c7fbfe8e4")
 		)
@@ -18284,6 +18788,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 101.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C138002"
+			(at 101.6 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18429,6 +18942,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 137.16 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "115217ec-9231-4ef6-9e88-30af96a696c7")
 		)
@@ -18488,6 +19010,15 @@
 			)
 		)
 		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
+			(at 120.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C4153167"
 			(at 120.65 45.72 0)
 			(effects
 				(font
@@ -18680,6 +19211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C106235"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "152757ee-3aa6-492b-a6a3-6f67a4b3a36d")
 		)
@@ -18814,6 +19354,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C627668"
+			(at 252.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "a0505c33-4d8f-4ef6-9c2e-d119f1179476")
 		)
@@ -18903,6 +19452,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 95.25 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,6 +19631,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C20917"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0895edf9-4636-49ff-8870-4d5e701c253c")
 		)
@@ -19141,6 +19708,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 33.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 33.02 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19352,6 +19928,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be4df780-b99e-4b3b-8420-201e7709c5e2")
 		)
@@ -19414,6 +19999,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 148.5752 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 148.5752 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,6 +20219,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 33.02 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1f6b474-829c-4c05-8237-14197fa5f702")
 		)
@@ -19754,6 +20357,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 215.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2909692"
+			(at 215.9 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19895,6 +20507,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C138002"
+			(at 101.6 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80e49681-e0f3-4e9e-aed7-ee28ad97697e")
 		)
@@ -19960,6 +20581,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 36.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 36.83 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
