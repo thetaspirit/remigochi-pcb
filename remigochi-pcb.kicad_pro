@@ -473,9 +473,12 @@
       "microSD-Card",
       "buzzer",
       "push-button",
-      "inductor"
+      "inductor",
+      "esd"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ESD122"
+    ]
   },
   "meta": {
     "filename": "remigochi-pcb.kicad_pro",
@@ -686,7 +689,7 @@
         "uuid": "58d85aad-26e6-48b9-8d15-adb10159de02"
       }
     ],
-    "used_designators": "Q1-3,D6,#PWR20,#PWR46-48,#PWR50-53,JP2,JP6,JP8,SW5,R14",
+    "used_designators": "U2,U6,D6-8,#PWR54-57,R16-18",
     "variants": []
   },
   "sheets": [

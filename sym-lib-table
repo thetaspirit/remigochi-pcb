@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESD122DMXR") (type "KiCad") (uri "${KIPRJMOD}/ESD122DMXR.kicad_sym") (options "") (descr ""))
+	(lib (name "ESD122") (type "KiCad") (uri "${KIPRJMOD}/ESD122.kicad_sym") (options "") (descr ""))
+)
