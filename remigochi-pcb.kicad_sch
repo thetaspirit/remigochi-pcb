@@ -4701,6 +4701,678 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PMOS_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q2"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PMOS_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q1"
+				(at 6.35 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 6.35 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_2_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_GPS:MAX-M10S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6193,8 +6865,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q3"
+				(at 6.35 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6205,7 +6877,7 @@
 				)
 			)
 			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6215,7 +6887,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6460,10 +7132,10 @@
 				)
 			)
 			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6478,10 +7150,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6497,9 +7169,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7488,9 +8160,9 @@
 		)
 		(uuid "4ec58f9e-4808-4c1e-ac4b-f042faf2f232")
 	)
-	(text "These 3 buttons will need internal\npull-down resistors to be enabled."
+	(text "These buttons will\nneed internal pull-down\nresistors to be enabled."
 		(exclude_from_sim no)
-		(at 178.308 56.134 0)
+		(at 219.71 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7525,7 +8197,7 @@
 	)
 	(text "Buttons"
 		(exclude_from_sim no)
-		(at 228.6 35.56 90)
+		(at 229.87 53.34 90)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7823,6 +8495,10 @@
 		(uuid "0ae7cce0-0668-4e91-85de-05d69e542550")
 	)
 	(no_connect
+		(at 60.96 52.07)
+		(uuid "1ad7a09c-1aa3-4de1-8035-7d942d0eec8b")
+	)
+	(no_connect
 		(at 266.7 88.9)
 		(uuid "1b20f6bb-3186-46bf-8935-c6a844d19ea4")
 	)
@@ -7835,8 +8511,16 @@
 		(uuid "2091b98c-60e1-45ec-b5cc-95cb797d2a45")
 	)
 	(no_connect
+		(at 60.96 36.83)
+		(uuid "37522d20-b3f6-4837-959d-5ef30cea60ca")
+	)
+	(no_connect
 		(at 105.41 45.72)
 		(uuid "4383ac7a-1fd2-46c9-90fc-a2986b34fb36")
+	)
+	(no_connect
+		(at 60.96 80.01)
+		(uuid "71da1050-1f0c-4840-b5fa-66d7f528705b")
 	)
 	(no_connect
 		(at 105.41 58.42)
@@ -7851,6 +8535,10 @@
 		(uuid "841a0cb3-f6be-4ee7-a9ab-cc189a6053e6")
 	)
 	(no_connect
+		(at 60.96 39.37)
+		(uuid "8e7cbdcc-2be2-4bbc-ae4d-7cbf2f8211c5")
+	)
+	(no_connect
 		(at 38.1 138.43)
 		(uuid "94b1395f-f118-4496-8582-eff14bc8ce26")
 	)
@@ -7859,8 +8547,16 @@
 		(uuid "a032234e-be8c-4429-985e-d734202dc643")
 	)
 	(no_connect
+		(at 60.96 82.55)
+		(uuid "a03f133a-cbbd-4276-946a-9a46ffbd0c67")
+	)
+	(no_connect
 		(at 266.7 91.44)
 		(uuid "b42cad2a-9a00-4298-bf3b-f1a09a133672")
+	)
+	(no_connect
+		(at 139.7 180.34)
+		(uuid "b9645045-c30d-4270-8455-49d529359103")
 	)
 	(no_connect
 		(at 125.73 27.94)
@@ -7869,6 +8565,10 @@
 	(no_connect
 		(at 38.1 135.89)
 		(uuid "c4b74f79-c500-46cf-a3a1-2ec72cf43c5b")
+	)
+	(no_connect
+		(at 30.48 62.23)
+		(uuid "c4ea7810-4c84-424f-ac96-dad0d72ccd58")
 	)
 	(no_connect
 		(at 105.41 53.34)
@@ -7881,6 +8581,18 @@
 	(no_connect
 		(at 120.65 27.94)
 		(uuid "d9e4f978-8cf2-4218-9f0a-c70db81cdbf0")
+	)
+	(no_connect
+		(at 139.7 175.26)
+		(uuid "daf05e91-f3eb-4f0c-ae35-e5c925ebc5c6")
+	)
+	(no_connect
+		(at 30.48 44.45)
+		(uuid "f0dc750d-59ea-45de-a4f8-75069b975667")
+	)
+	(no_connect
+		(at 30.48 46.99)
+		(uuid "f6b8baf5-d358-46dd-b6d4-6314234398f3")
 	)
 	(wire
 		(pts
@@ -7954,7 +8666,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 44.45) (xy 73.66 44.45)
+			(xy 60.96 44.45) (xy 71.12 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8084,23 +8796,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 82.55) (xy 73.66 82.55)
+			(xy 60.96 74.93) (xy 73.66 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15572414-2169-4141-a094-cf9286340470")
-	)
-	(wire
-		(pts
-			(xy 60.96 80.01) (xy 73.66 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b6dfe1-6016-4faa-818f-56caf8fff35f")
+		(uuid "150d7246-53c7-4b8e-bb97-a2154b3a7b98")
 	)
 	(wire
 		(pts
@@ -8724,16 +9426,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 44.45) (xy 30.48 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f7626b-1044-4644-ae86-dc40d8451562")
-	)
-	(wire
-		(pts
 			(xy 151.13 148.59) (xy 151.13 152.4)
 		)
 		(stroke
@@ -8874,16 +9566,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "641d362d-c2b2-4f5c-93ea-7da13ad7da3a")
-	)
-	(wire
-		(pts
 			(xy 16.51 52.07) (xy 30.48 52.07)
 		)
 		(stroke
@@ -8894,7 +9576,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 35.56) (xy 199.39 54.61)
+			(xy 198.12 31.75) (xy 198.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9054,7 +9736,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 35.56) (xy 181.61 54.61)
+			(xy 180.34 31.75) (xy 180.34 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9374,16 +10056,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 46.99) (xy 30.48 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d7c4c6-d953-4eff-8f40-c4e22543235f")
-	)
-	(wire
-		(pts
 			(xy 90.17 185.42) (xy 90.17 187.96)
 		)
 		(stroke
@@ -9614,7 +10286,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 41.91) (xy 73.66 41.91)
+			(xy 60.96 41.91) (xy 71.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9804,7 +10476,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 21.59) (xy 215.9 25.4)
+			(xy 214.63 20.32) (xy 214.63 21.59)
 		)
 		(stroke
 			(width 0)
@@ -9914,16 +10586,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 73.66 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9663ee-413b-41fb-8975-a62707595858")
-	)
-	(wire
-		(pts
 			(xy 16.51 74.93) (xy 30.48 74.93)
 		)
 		(stroke
@@ -9974,6 +10636,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 50.8) (xy 200.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c9fbde-29b8-4c7c-9933-f618c534656f")
+	)
+	(wire
+		(pts
 			(xy 97.79 95.25) (xy 99.06 95.25)
 		)
 		(stroke
@@ -10014,7 +10686,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 21.59) (xy 181.61 25.4)
+			(xy 180.34 20.32) (xy 180.34 21.59)
 		)
 		(stroke
 			(width 0)
@@ -10024,23 +10696,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 21.59) (xy 199.39 25.4)
+			(xy 198.12 20.32) (xy 198.12 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcafde3f-5505-44fe-b9fe-40e99bbe554f")
-	)
-	(wire
-		(pts
-			(xy 60.96 52.07) (xy 73.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de89b9ea-1a6c-4c4e-b896-a98ccc574c7f")
 	)
 	(polyline
 		(pts
@@ -10064,7 +10726,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 35.56) (xy 215.9 54.61)
+			(xy 214.63 31.75) (xy 214.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10144,16 +10806,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 62.23) (xy 30.48 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc7db08-6eac-4517-8422-5780f597517b")
-	)
-	(wire
-		(pts
 			(xy 106.68 100.33) (xy 106.68 101.6)
 		)
 		(stroke
@@ -10171,6 +10823,16 @@
 			(type default)
 		)
 		(uuid "eccffe7e-3a11-4dc2-a3b8-9f36076f768c")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 179.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecff3155-e6d9-4f41-b242-14ecc0e190e6")
 	)
 	(wire
 		(pts
@@ -10294,16 +10956,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 73.66 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3b5ca7-4167-4e3a-abae-6b8dc58000a2")
-	)
-	(wire
-		(pts
 			(xy 19.05 123.19) (xy 38.1 123.19)
 		)
 		(stroke
@@ -10392,6 +11044,16 @@
 		)
 		(uuid "11c3195b-4622-473d-9abc-7d91820b1bdb")
 	)
+	(label "BUTTON_4"
+		(at 73.66 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "123d925d-a910-4a61-96e9-cf28d5db1717")
+	)
 	(label "SPI3_SCLK"
 		(at 19.05 128.27 0)
 		(effects
@@ -10423,7 +11085,7 @@
 		(uuid "1b63fcf7-a812-421a-bb0d-4094cf25a836")
 	)
 	(label "MOTOR"
-		(at 73.66 41.91 180)
+		(at 71.12 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10483,7 +11145,7 @@
 		(uuid "29dfee0d-f49e-4ee3-a695-4500c265b596")
 	)
 	(label "BUTTON_1"
-		(at 215.9 54.61 90)
+		(at 214.63 43.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10632,16 +11294,6 @@
 		)
 		(uuid "58d778a4-44e8-4019-b106-02801381a61e")
 	)
-	(label "GPIO8"
-		(at 16.51 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5df07068-acfc-4dd6-8b99-af180b1e5cee")
-	)
 	(label "LED_GREEN"
 		(at 205.74 129.54 270)
 		(effects
@@ -10673,7 +11325,7 @@
 		(uuid "66d6e2f7-d1d8-4f71-ac53-74b63683803c")
 	)
 	(label "BUZZER"
-		(at 73.66 44.45 180)
+		(at 71.12 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10741,16 +11393,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e220b97-c039-4e5d-9692-7521505b8538")
-	)
-	(label "GPIO48"
-		(at 73.66 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "733b59a1-f819-4541-8f4b-6c2581322305")
 	)
 	(label "CHG_STA2"
 		(at 109.22 160.02 180)
@@ -10862,16 +11504,6 @@
 		)
 		(uuid "8bfc2461-176e-4316-b54b-e6bbace8a14a")
 	)
-	(label "GPIO21"
-		(at 73.66 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f6eee13-18df-495e-8113-20fa55b4f954")
-	)
 	(label "BUTTON_2"
 		(at 16.51 80.01 0)
 		(effects
@@ -10903,7 +11535,7 @@
 		(uuid "99f1c529-c00d-4b9c-8833-a04cebb442f3")
 	)
 	(label "BUTTON_3"
-		(at 181.61 54.61 90)
+		(at 180.34 43.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10952,16 +11584,6 @@
 		)
 		(uuid "a1cb9c77-b558-45c1-a3fa-33231b5ff38c")
 	)
-	(label "RXD0"
-		(at 73.66 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a48e58d6-2677-436f-ae15-1b0acb1e50f5")
-	)
 	(label "LED_RED"
 		(at 73.66 54.61 180)
 		(effects
@@ -10982,6 +11604,16 @@
 		)
 		(uuid "aeec085d-99d3-4a4d-88a8-bcee303b16df")
 	)
+	(label "BUTTON_4"
+		(at 179.07 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1e2067f-8573-413d-b767-e239260f39cc")
+	)
 	(label "USB_DM"
 		(at 236.22 27.94 0)
 		(effects
@@ -11001,26 +11633,6 @@
 			(justify left bottom)
 		)
 		(uuid "c08fdb6a-009e-41ae-b41f-842d68f88905")
-	)
-	(label "GPIO47"
-		(at 73.66 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2ab36ba-5c9d-457c-874a-2caa0542cde8")
-	)
-	(label "GPIO2"
-		(at 16.51 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2fa08ff-0b61-40a1-9277-5d7e0a20b6a8")
 	)
 	(label "FSPI_CIPO"
 		(at 53.34 170.18 180)
@@ -11062,16 +11674,6 @@
 		)
 		(uuid "d4e84851-a33a-4a89-8ccd-e47941086ac4")
 	)
-	(label "TXD0"
-		(at 73.66 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df5532c3-62eb-48b3-9253-027f2ea43237")
-	)
 	(label "BATT_MON"
 		(at 100.33 179.07 180)
 		(effects
@@ -11083,7 +11685,7 @@
 		(uuid "e01e8da9-5f7f-4fa1-ba01-863eda83d514")
 	)
 	(label "BUTTON_2"
-		(at 199.39 54.61 90)
+		(at 198.12 43.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11091,16 +11693,6 @@
 			(justify left bottom)
 		)
 		(uuid "e98fec1f-bef4-424e-ac8f-fd03de2af4d1")
-	)
-	(label "GPIO45"
-		(at 73.66 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecf86e90-ab61-4fc5-9de0-176feda93312")
 	)
 	(label "LCD_LED"
 		(at 111.76 140.97 180)
@@ -11141,16 +11733,6 @@
 			(justify right bottom)
 		)
 		(uuid "f80329a1-8464-42f8-a085-e83417cb7188")
-	)
-	(label "GPIO1"
-		(at 16.51 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc7cddd9-f234-4489-a3fe-84eaa3845d8c")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -11413,6 +11995,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 195.58 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "033ebbc7-5c52-4e83-8c3a-ee8274d4611a")
+		(property "Reference" "SW6"
+			(at 196.8501 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 194.3101 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "push-button:Korean Hroparts Elec K2-1157SP-I4SW-01"
+			(at 195.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 195.58 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2909692"
+			(at 195.58 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ce16a15-6294-48b2-b646-d77df1eef396")
+		)
+		(pin "1"
+			(uuid "cedec170-3ba0-409e-8373-29e0814bb3a9")
+		)
+		(instances
+			(project "remigochi-pcb"
+				(path "/58d85aad-26e6-48b9-8d15-adb10159de02"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 90.17 173.99 0)
 		(unit 1)
@@ -11584,6 +12259,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PMOS_2")
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 104.14 95.25 0)
 		(mirror x)
@@ -14257,7 +14933,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 181.61 30.48 90)
+		(at 180.34 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14268,7 +14944,7 @@
 		(fields_autoplaced yes)
 		(uuid "53830279-b69f-4462-bc8a-acf78facdbe0")
 		(property "Reference" "SW4"
-			(at 182.88 29.2099 90)
+			(at 181.61 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14279,7 +14955,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 182.88 31.7499 90)
+			(at 181.61 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14290,7 +14966,7 @@
 			)
 		)
 		(property "Footprint" "push-button:Korean Hroparts Elec K2-1157SP-I4SW-01"
-			(at 176.53 30.48 0)
+			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14301,7 +14977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 30.48 0)
+			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14312,7 +14988,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 181.61 30.48 0)
+			(at 180.34 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14323,7 +14999,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C2909692"
-			(at 181.61 30.48 90)
+			(at 180.34 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16528,6 +17204,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 201.93 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd1fb9a-eb4b-43c9-bd20-c7fa0a3368d9")
+		(property "Reference" "#PWR060"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.01 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 201.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f374cd9c-5763-4cd4-a624-5f0aeac719a8")
+		)
+		(instances
+			(project "remigochi-pcb"
+				(path "/58d85aad-26e6-48b9-8d15-adb10159de02"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 198.12 116.84 0)
 		(unit 1)
@@ -17469,7 +18223,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 199.39 30.48 90)
+		(at 198.12 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17480,7 +18234,7 @@
 		(fields_autoplaced yes)
 		(uuid "947758f6-e973-4095-8ae8-704e71b1ed8d")
 		(property "Reference" "SW3"
-			(at 200.66 29.2099 90)
+			(at 199.39 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17491,7 +18245,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 200.66 31.7499 90)
+			(at 199.39 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17502,7 +18256,7 @@
 			)
 		)
 		(property "Footprint" "push-button:Korean Hroparts Elec K2-1157SP-I4SW-01"
-			(at 194.31 30.48 0)
+			(at 193.04 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17513,7 +18267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 30.48 0)
+			(at 193.04 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17524,7 +18278,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 199.39 30.48 0)
+			(at 198.12 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17535,7 +18289,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C2909692"
-			(at 199.39 30.48 90)
+			(at 198.12 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18476,98 +19230,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 180.34 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac8574cd-2024-450b-94ec-84e235046455")
-		(property "Reference" "TP6"
-			(at 144.2721 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.7321 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 139.7 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" ""
-			(at 139.7 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9574161c-a2bb-4b49-875c-8d5bd347787c")
-		)
-		(instances
-			(project "remigochi-pcb"
-				(path "/58d85aad-26e6-48b9-8d15-adb10159de02"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 208.28 116.84 0)
 		(unit 1)
@@ -19407,7 +20069,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 199.39 21.59 0)
+		(at 198.12 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19418,7 +20080,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4c86466-f9ef-4ff4-b914-2e0ec6ffc106")
 		(property "Reference" "#PWR026"
-			(at 199.39 25.4 0)
+			(at 198.12 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19429,7 +20091,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 16.51 0)
+			(at 198.12 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19439,7 +20101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 21.59 0)
+			(at 198.12 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19450,7 +20112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 21.59 0)
+			(at 198.12 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19461,7 +20123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 21.59 0)
+			(at 198.12 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19894,7 +20556,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 181.61 21.59 0)
+		(at 180.34 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19905,7 +20567,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8485180-cf1d-460a-8504-2bf292a42a4b")
 		(property "Reference" "#PWR025"
-			(at 181.61 25.4 0)
+			(at 180.34 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19916,7 +20578,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 181.61 16.51 0)
+			(at 180.34 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19926,7 +20588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 21.59 0)
+			(at 180.34 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19937,7 +20599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 21.59 0)
+			(at 180.34 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19948,7 +20610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 181.61 21.59 0)
+			(at 180.34 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20220,6 +20882,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PMOS_1")
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 134.62 95.25 0)
 		(mirror x)
@@ -20417,7 +21080,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 215.9 21.59 0)
+		(at 214.63 20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20428,7 +21091,7 @@
 		(fields_autoplaced yes)
 		(uuid "ced8afce-1a2e-4201-ac3f-e163933071f2")
 		(property "Reference" "#PWR027"
-			(at 215.9 25.4 0)
+			(at 214.63 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20439,7 +21102,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 16.51 0)
+			(at 214.63 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20449,7 +21112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 21.59 0)
+			(at 214.63 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,7 +21123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 21.59 0)
+			(at 214.63 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20471,7 +21134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 215.9 21.59 0)
+			(at 214.63 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21758,98 +22421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 175.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec4c5bef-c2c8-48bf-9091-61de78ca505c")
-		(property "Reference" "TP5"
-			(at 144.2721 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 141.7321 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 139.7 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" ""
-			(at 139.7 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be4df780-b99e-4b3b-8420-201e7709c5e2")
-		)
-		(instances
-			(project "remigochi-pcb"
-				(path "/58d85aad-26e6-48b9-8d15-adb10159de02"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 274.32 20.32 0)
 		(unit 1)
@@ -22007,7 +22578,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 30.48 90)
+		(at 214.63 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22018,7 +22589,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc1dbcc0-0a7a-480d-8431-83987f69db54")
 		(property "Reference" "SW2"
-			(at 217.17 29.2099 90)
+			(at 215.9 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22029,7 +22600,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 217.17 31.7499 90)
+			(at 215.9 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22040,7 +22611,7 @@
 			)
 		)
 		(property "Footprint" "push-button:Korean Hroparts Elec K2-1157SP-I4SW-01"
-			(at 210.82 30.48 0)
+			(at 209.55 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22051,7 +22622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 30.48 0)
+			(at 209.55 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22062,7 +22633,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 30.48 0)
+			(at 214.63 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22073,7 +22644,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C2909692"
-			(at 215.9 30.48 90)
+			(at 214.63 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
