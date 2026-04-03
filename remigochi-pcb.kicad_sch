@@ -8503,10 +8503,6 @@
 		(uuid "1b20f6bb-3186-46bf-8935-c6a844d19ea4")
 	)
 	(no_connect
-		(at 128.27 190.5)
-		(uuid "2080227b-3955-4565-a8f7-b8fee516e93f")
-	)
-	(no_connect
 		(at 135.89 40.64)
 		(uuid "2091b98c-60e1-45ec-b5cc-95cb797d2a45")
 	)
@@ -8517,10 +8513,6 @@
 	(no_connect
 		(at 105.41 45.72)
 		(uuid "4383ac7a-1fd2-46c9-90fc-a2986b34fb36")
-	)
-	(no_connect
-		(at 60.96 80.01)
-		(uuid "71da1050-1f0c-4840-b5fa-66d7f528705b")
 	)
 	(no_connect
 		(at 105.41 58.42)
@@ -8581,10 +8573,6 @@
 	(no_connect
 		(at 120.65 27.94)
 		(uuid "d9e4f978-8cf2-4218-9f0a-c70db81cdbf0")
-	)
-	(no_connect
-		(at 139.7 175.26)
-		(uuid "daf05e91-f3eb-4f0c-ae35-e5c925ebc5c6")
 	)
 	(no_connect
 		(at 30.48 44.45)
@@ -9423,6 +9411,16 @@
 			(type default)
 		)
 		(uuid "53ab1d80-fd3e-4424-8260-37e875477183")
+	)
+	(wire
+		(pts
+			(xy 128.27 190.5) (xy 139.7 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554c8ab8-1e54-4392-aa9e-f37dc3efba28")
 	)
 	(wire
 		(pts
@@ -10756,6 +10754,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e955f403-1a4a-4c19-a3dd-00752876a7b2")
+	)
+	(wire
+		(pts
 			(xy 16.51 77.47) (xy 30.48 77.47)
 		)
 		(stroke
@@ -11004,7 +11012,7 @@
 		)
 		(uuid "0a2a293b-e848-4914-88d2-fea0ccbe86fe")
 	)
-	(label "SPI3_COPI"
+	(label "SHARED_COPI"
 		(at 73.66 62.23 180)
 		(effects
 			(font
@@ -11054,7 +11062,7 @@
 		)
 		(uuid "123d925d-a910-4a61-96e9-cf28d5db1717")
 	)
-	(label "SPI3_SCLK"
+	(label "SHARED_SCLK"
 		(at 19.05 128.27 0)
 		(effects
 			(font
@@ -11063,6 +11071,16 @@
 			(justify left bottom)
 		)
 		(uuid "13599369-8f3a-4843-87c8-52b67848e599")
+	)
+	(label "RFID_RST"
+		(at 73.66 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "165d719f-05ad-4b29-8790-3ffe100c9793")
 	)
 	(label "LCD_DC"
 		(at 53.34 180.34 180)
@@ -11154,7 +11172,7 @@
 		)
 		(uuid "2b5d771e-adb0-4f3b-9cff-6bcc4cf22f65")
 	)
-	(label "SPI3_COPI"
+	(label "SHARED_COPI"
 		(at 19.05 123.19 0)
 		(effects
 			(font
@@ -11264,7 +11282,7 @@
 		)
 		(uuid "5450ef56-fc73-4754-a530-cb534ef696ce")
 	)
-	(label "SPI3_SCLK"
+	(label "SHARED_SCLK"
 		(at 139.7 187.96 180)
 		(effects
 			(font
@@ -11293,6 +11311,16 @@
 			(justify right bottom)
 		)
 		(uuid "58d778a4-44e8-4019-b106-02801381a61e")
+	)
+	(label "RFID_CS"
+		(at 139.7 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bc705cc-c4ab-40f6-994e-8343bf4ec4dc")
 	)
 	(label "LED_GREEN"
 		(at 205.74 129.54 270)
@@ -11344,7 +11372,7 @@
 		)
 		(uuid "69264411-d6ce-4afe-972f-f5baa2bf9442")
 	)
-	(label "SPI3_CIPO"
+	(label "SHARED_CIPO"
 		(at 73.66 64.77 180)
 		(effects
 			(font
@@ -11354,7 +11382,7 @@
 		)
 		(uuid "6977399c-85e9-4607-acb4-cefc5cbe0d4c")
 	)
-	(label "SPI3_CIPO"
+	(label "SHARED_CIPO"
 		(at 19.05 133.35 0)
 		(effects
 			(font
@@ -11434,7 +11462,7 @@
 		)
 		(uuid "7b6c778d-3b0b-4847-b0b3-f231833e7b9d")
 	)
-	(label "SPI3_COPI"
+	(label "SHARED_COPI"
 		(at 139.7 185.42 180)
 		(effects
 			(font
@@ -11544,7 +11572,7 @@
 		)
 		(uuid "9da63fc1-b6c4-4103-925e-6758a03f2e62")
 	)
-	(label "SPI3_SCLK"
+	(label "SHARED_SCLK"
 		(at 73.66 67.31 180)
 		(effects
 			(font
@@ -11724,7 +11752,7 @@
 		)
 		(uuid "f7e1c7aa-5279-4af4-ba25-897afcd3870c")
 	)
-	(label "SPI3_CIPO"
+	(label "SHARED_CIPO"
 		(at 139.7 182.88 180)
 		(effects
 			(font
