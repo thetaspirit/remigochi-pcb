@@ -8511,6 +8511,10 @@
 		(uuid "37522d20-b3f6-4837-959d-5ef30cea60ca")
 	)
 	(no_connect
+		(at 60.96 74.93)
+		(uuid "3cfada90-2c22-4099-aaaf-0d8bf6b34e1d")
+	)
+	(no_connect
 		(at 105.41 45.72)
 		(uuid "4383ac7a-1fd2-46c9-90fc-a2986b34fb36")
 	)
@@ -8537,10 +8541,6 @@
 	(no_connect
 		(at 29.21 160.02)
 		(uuid "a032234e-be8c-4429-985e-d734202dc643")
-	)
-	(no_connect
-		(at 60.96 82.55)
-		(uuid "a03f133a-cbbd-4276-946a-9a46ffbd0c67")
 	)
 	(no_connect
 		(at 266.7 91.44)
@@ -8781,16 +8781,6 @@
 			(type default)
 		)
 		(uuid "14d8deb6-0653-477a-8519-90e54d8b26c5")
-	)
-	(wire
-		(pts
-			(xy 60.96 74.93) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "150d7246-53c7-4b8e-bb97-a2154b3a7b98")
 	)
 	(wire
 		(pts
@@ -9531,6 +9521,16 @@
 			(type default)
 		)
 		(uuid "604537be-2595-46ba-a47e-38add2554ac1")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.55) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61650d35-1b73-4198-bad3-e26df01bbe9a")
 	)
 	(wire
 		(pts
@@ -10982,7 +10982,7 @@
 		)
 		(uuid "ffc45e86-7339-4ea1-98f8-c656e0e39064")
 	)
-	(label "FSPI_COPI"
+	(label "LCD_COPI"
 		(at 53.34 177.8 180)
 		(effects
 			(font
@@ -11052,16 +11052,6 @@
 		)
 		(uuid "11c3195b-4622-473d-9abc-7d91820b1bdb")
 	)
-	(label "BUTTON_4"
-		(at 73.66 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "123d925d-a910-4a61-96e9-cf28d5db1717")
-	)
 	(label "SHARED_SCLK"
 		(at 19.05 128.27 0)
 		(effects
@@ -11092,7 +11082,7 @@
 		)
 		(uuid "18dafc10-4d32-4a11-bb4f-2855ac22f721")
 	)
-	(label "FSPI_CIPO"
+	(label "LCD_CIPO"
 		(at 16.51 74.93 0)
 		(effects
 			(font
@@ -11242,7 +11232,7 @@
 		)
 		(uuid "4de9fe29-ae76-48d7-83f7-310d2a82b922")
 	)
-	(label "FSPI_SCLK"
+	(label "LCD_SCLK"
 		(at 16.51 72.39 0)
 		(effects
 			(font
@@ -11442,7 +11432,7 @@
 		)
 		(uuid "74de6046-9515-4641-9c17-eefe2cb09138")
 	)
-	(label "FSPI_SCLK"
+	(label "LCD_SCLK"
 		(at 53.34 175.26 180)
 		(effects
 			(font
@@ -11542,7 +11532,7 @@
 		)
 		(uuid "906dfa4f-c220-42d2-826d-cdb8f082a92b")
 	)
-	(label "FSPI_COPI"
+	(label "LCD_COPI"
 		(at 16.51 69.85 0)
 		(effects
 			(font
@@ -11662,7 +11652,7 @@
 		)
 		(uuid "c08fdb6a-009e-41ae-b41f-842d68f88905")
 	)
-	(label "FSPI_CIPO"
+	(label "LCD_CIPO"
 		(at 53.34 170.18 180)
 		(effects
 			(font
@@ -11711,6 +11701,16 @@
 			(justify right bottom)
 		)
 		(uuid "e01e8da9-5f7f-4fa1-ba01-863eda83d514")
+	)
+	(label "BUTTON_4"
+		(at 73.66 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e23fc279-ad36-4950-ac9e-968534e9935d")
 	)
 	(label "BUTTON_2"
 		(at 198.12 43.18 90)
