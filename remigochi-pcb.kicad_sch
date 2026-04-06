@@ -12387,6 +12387,17 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C10487"
+			(at 104.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e6a2eba-0326-420e-b6a8-3d60b29c9075")
 		)
@@ -13574,7 +13585,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C2980185"
+		(property "LCSC Part Number" "C965825"
 			(at 205.74 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -13828,6 +13839,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 190.5 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2909380"
 			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14669,6 +14691,17 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C10487"
+			(at 100.33 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fb7facdc-0cc3-4bb5-973f-12c11965c20c")
 		)
@@ -15431,7 +15464,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8a63e9-7c89-4562-8585-e6c4b4bd46ba")
@@ -15807,7 +15840,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee9dd8e-c462-4ccb-b915-bbac38e0335f")
@@ -16147,7 +16180,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C2980185"
+		(property "LCSC Part Number" "C965825"
 			(at 162.56 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -16917,7 +16950,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C2980185"
+		(property "LCSC Part Number" "C965825"
 			(at 231.14 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -17961,7 +17994,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1fcaf4-64f3-49ec-8d8a-efd9cccd4bf3")
@@ -18614,6 +18647,17 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C138052"
+			(at 205.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78b94637-4e47-4194-a41b-bc3e4b9dd0a4")
 		)
@@ -19065,7 +19109,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -19428,6 +19472,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC Part Number" "C544474"
+			(at 255.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20792,6 +20847,17 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C10487"
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22214,6 +22280,17 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C138052"
+			(at 162.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2986c90-a366-4d9e-8e39-8d49220ebf19")
 		)
@@ -22286,6 +22363,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 198.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C2909380"
 			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
